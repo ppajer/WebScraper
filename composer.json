@@ -11,6 +11,11 @@
             "email": "peter.p.pajer@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "ppajer\\":"src/"
+        }
+    },
 	"repositories": [
 		{
 			"type": "vcs",
@@ -18,7 +23,7 @@
 		}
 	],
 	"require": {
-		"ppajer/phpdomextractor": "*",
-		"ppajer/php-request": "*"
+		"ppajer/domextractor": "*",
+		"ppajer/request": "*"
 	}
 }

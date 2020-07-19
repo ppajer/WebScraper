@@ -1,5 +1,9 @@
 <?php
 
+namespace ppajer;
+
+use DOM_Extractor;
+use ParallelRequest;
 
 class WebScraper {
 
