@@ -2,8 +2,8 @@
 
 namespace ppajer;
 
-use DOM_Extractor;
-use ParallelRequest;
+use \ppajer\DOM_Extractor;
+use \ppajer\ParallelRequest;
 
 class WebScraper {
 
